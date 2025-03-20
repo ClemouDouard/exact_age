@@ -11,3 +11,4 @@ if st.button(label="Submit"):
         while not stop:
             st.write(calc_time(birthday=str(birthday)))
             time.sleep(0.01)
+
